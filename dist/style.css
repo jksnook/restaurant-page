@@ -18,7 +18,7 @@ div#content {
   height: 100vh;
 }
 
-.banner {
+.header {
   background-color: #fb923c;
   grid-column: 1 / 4;
   display: grid;
@@ -54,4 +54,8 @@ div.image {
 .page img {
   height: 250px;
   width: auto;
+}
+
+.current-tab {
+  background-color: #fed7aa;
 }

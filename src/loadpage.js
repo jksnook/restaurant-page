@@ -7,13 +7,16 @@ export default function loadPage() {
   const nav = document.createElement('ul');
   nav.classList.add('nav');
   const navItem1 = document.createElement('li');
+  navItem1.id = 'nav-home';
   navItem1.classList.add('current-tab')
   navItem1.textContent = 'Home';
   nav.appendChild(navItem1);
   const navItem2 = document.createElement('li');
+  navItem2.id = 'nav-menu';
   navItem2.textContent = 'Menu';
   nav.appendChild(navItem2);
   const navItem3 = document.createElement('li');
+  navItem3.id = 'nav-contact';
   navItem3.textContent = 'Contact';
   nav.appendChild(navItem3);
   header.appendChild(title);

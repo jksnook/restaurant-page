@@ -7,4 +7,7 @@ export default function loadHome() {
   pizza.alt = 'A pizza pie';
   imageContainer.appendChild(pizza);
   page.appendChild(imageContainer);
+  const description = document.createElement('p');
+  description.textContent = 'We Make the best pizzas in THE WORLD!';
+  page.appendChild(description);
 }

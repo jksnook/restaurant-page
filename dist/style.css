@@ -45,6 +45,7 @@ div.page {
   background-color: #fed7aa;
   grid-column: 2 / 3;
   padding: 20px;
+  text-align: center;
 }
 
 div.image {
@@ -54,6 +55,10 @@ div.image {
 .page img {
   height: 250px;
   width: auto;
+}
+
+.page ul {
+  list-style: none;
 }
 
 .current-tab {
